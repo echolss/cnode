@@ -19,6 +19,7 @@
   "homepage": "https://github.com/echolss/cnode#readme",
   "dependencies": {
     "react": "^16.3.1",
+    "react-dom": "^16.3.1",
     "webpack": "^3.8.1"
   }
 }
