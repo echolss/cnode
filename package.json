@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/echolss/cnode/issues"
   },
-  "homepage": "https://github.com/echolss/cnode#readme"
+  "homepage": "https://github.com/echolss/cnode#readme",
+  "dependencies": {
+    "react": "^16.3.1",
+    "webpack": "^3.8.1"
+  }
 }
