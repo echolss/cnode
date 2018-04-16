@@ -23,6 +23,7 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4"
   }
 }
