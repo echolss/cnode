@@ -8,13 +8,20 @@ module.exports = {
     output: {
         filename: '[name].[hash].js',
         path: path.join(__dirname, '../dist'),
-        publicPath: '/public'
+        publicPath: ''
     },
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/,
+                test: /.jsx$/,
                 loader: 'babel-loader'
+            },
+            {
+                test: /.js$/,
+                loader: 'babel-loader',
+                exclude: [
+                    path.join(__dirname, '../node_modules')
+                ]
             }
         ]
     },
