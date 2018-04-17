@@ -16,9 +16,9 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 loader: 'babel-loader'
             }
-        ],
-        plugins: [
-            new HTMLPlugin()
         ]
-    }
+    },
+    plugins: [
+        new HTMLPlugin()
+    ]
 }
