@@ -8,7 +8,7 @@ module.exports = {
     output: {
         filename: 'server.output.js',
         path: path.join(__dirname, '../dist'),
-        publicPath: '',
+        publicPath: '/public',
         libraryTarget: 'commonjs2' //使用模块的方案，AMD,CMD....
     },
     module: {
