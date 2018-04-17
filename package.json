@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/echolss/cnode#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "webpack": "^3.8.1"
