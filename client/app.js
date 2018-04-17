@@ -4,5 +4,5 @@ import App from './App.jsx';
 
 ReactDOM.render(
     <App/>,
-    document.body
+    document.getElementById('root')
 );
