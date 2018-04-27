@@ -1,4 +1,5 @@
 const express = require('express')
+const favicon = require('serve-favicon')
 const ReactSSR = require('react-dom/server')
 const fs = require('fs')
 const path = require('path') // 在使用到路径时，一般引入path，保证绝对路径，避免出错
@@ -6,6 +7,8 @@ const path = require('path') // 在使用到路径时，一般引入path，保�
 const isDev = process.env.NODE_ENV === 'development'
 
 const app = express()
+
+app.use(favicon(path.join(__dirname, '../favicon.ico')))
 
 if (!isDev) {
   const serverOutput = require('../dist/server.output').default
